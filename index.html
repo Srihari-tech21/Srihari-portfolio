@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 3rem;
+    padding: 1.25rem 2rem;
     background: rgba(10,10,15,0.85);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
@@ -64,7 +64,7 @@
 
   .nav-logo {
     font-family: var(--font-mono);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--accent);
     text-decoration: none;
@@ -73,15 +73,15 @@
 
   .nav-links {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     list-style: none;
   }
 
   .nav-links a {
     color: var(--text-secondary);
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.875rem;
+    font-weight: 500;
     letter-spacing: 0.03em;
     transition: color 0.2s;
   }
@@ -90,13 +90,13 @@
 
   /* ── LAYOUT ─────────────────────────────────────────────── */
   .container {
-    max-width: 1400px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 0 3rem;
+    padding: 0 2rem;
   }
 
   section {
-    padding: 6rem 0;
+    padding: 5rem 0;
     position: relative;
   }
 
@@ -110,10 +110,10 @@
   }
 
   .section-title {
-    font-size: 2.25rem;
+    font-size: 1.9rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     line-height: 1.2;
   }
 
@@ -166,7 +166,7 @@
   }
 
   .hero-name {
-    font-size: clamp(3.5rem, 8vw, 5.5rem);
+    font-size: clamp(2.5rem, 6vw, 4rem);
     font-weight: 700;
     line-height: 1.05;
     letter-spacing: -0.03em;
@@ -186,11 +186,11 @@
   }
 
   .profile-photo {
-    width: 380px;
-    height: 420px;
-    border-radius: 20px;
+    width: 260px;
+    height: 300px;
+    border-radius: 16px;
     object-fit: cover;
-    border: 3px solid var(--accent);
+    border: 2px solid var(--accent);
     box-shadow: 0 0 20px rgba(124, 109, 250, 0.3);
     flex-shrink: 0;
   }
@@ -208,9 +208,9 @@
   }
 
   .hero-desc {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: var(--text-secondary);
-    max-width: 800px;
+    max-width: 560px;
     line-height: 1.6;
     margin-bottom: 2.5rem;
   }
